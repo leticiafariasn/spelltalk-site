@@ -5,7 +5,7 @@
 SpellTalk – Curso de Idiomas com Foco em Pronúncia e Comunicação
 
 👩‍💻 AUTORIA:
-Letícia Farias  
+Letícia Farias Nunes
 Estudante de Ciências de Dados | Letras | Direito  
 Professora de Inglês | Desenvolvedora Iniciante em Front-End
 
@@ -35,7 +35,7 @@ Este repositório contém a primeira versão do **site institucional** do curso,
 - `/imagens`: pasta com a logo oficial, banners e mascote
 
 🛡️ DIREITOS AUTORAIS:
-Este projeto é de autoria de Letícia Farias e está sendo registrado para fins de proteção intelectual e comprovação de autoria.  
+Este projeto é de autoria de Letícia Farias Nunes e está sendo registrado para fins de proteção intelectual e comprovação de autoria.  
 Qualquer uso ou reprodução da identidade visual ou conteúdo sem autorização está sujeito às penalidades previstas na Lei de Direitos Autorais.
 
 ========================== Letícia Farias Nunes – Abril de 2025 ==========================
