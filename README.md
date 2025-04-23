@@ -1,5 +1,5 @@
 📄 README – Projeto SpellTalk
-───────────────────────────────
+=============================
 
 🔮 NOME DO PROJETO:
 SpellTalk – Curso de Idiomas com Foco em Pronúncia e Comunicação
@@ -38,5 +38,5 @@ Este repositório contém a primeira versão do **site institucional** do curso,
 Este projeto é de autoria de Letícia Farias e está sendo registrado para fins de proteção intelectual e comprovação de autoria.  
 Qualquer uso ou reprodução da identidade visual ou conteúdo sem autorização está sujeito às penalidades previstas na Lei de Direitos Autorais.
 
-───────────────────────────────
+=============================
 Letícia Farias Nunes – Abril de 2025
