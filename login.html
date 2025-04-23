@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpellTalk - Login</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#9d4edd">
+  <meta name="msapplication-TileColor" content="#9d4edd">
+  <meta name="theme-color" content="#9d4edd">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Phosphor Icons -->
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web/src/regular/style.css">
+  
+  <!-- CSS Principal -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <!-- Logo no canto superior esquerdo -->
+  <header class="site-header">
+    <a href="index.html">
+      <!-- Logo para modo escuro (fundo transparente/branco) -->
+      <img src="images/logo-dark.png" alt="SpellTalk Logo" class="site-logo logo-dark">
+      <!-- Logo para modo claro (fundo preto) -->
+      <img src="images/logo-light.png" alt="SpellTalk Logo" class="site-logo logo-light">
+    </a>
+  </header>
+  
+  <!-- Theme Toggle -->
+  <input type="checkbox" id="theme-toggle" onchange="document.documentElement.classList.toggle('dark')">
+  <label for="theme-toggle" class="theme-toggle-label">
+    <i class="ph ph-sun theme-icon sun-icon"></i>
+    <i class="ph ph-moon theme-icon moon-icon"></i>
+  </label>
+  
+  <!-- Background Elements -->
+  <div class="bg-elements">
+    <div class="black-glow glow-1"></div>
+    <div class="black-glow glow-2"></div>
+    
+    <div class="language-symbol symbol-1">Ñ</div>
+    <div class="language-symbol symbol-2">Ç</div>
+    <div class="language-symbol symbol-3">Ü</div>
+    <div class="language-symbol symbol-4">Ä</div>
+    <div class="language-symbol symbol-5">Ö</div>
+  </div>
+  
+  <!-- Botão de fechar -->
+  <a href="index.html" class="close-btn">
+    <i class="ph ph-x"></i>
+  </a>
+  
+  <div class="login-container">
+    <div class="login-card">
+      <h1 class="login-title">Entrar</h1>
+      
+      <form>
+        <div class="input-group">
+          <input type="email" class="form-input" placeholder="E-mail" required autofocus>
+          <i class="ph ph-envelope input-icon"></i>
+        </div>
+        
+        <div class="input-group">
+          <input type="password" class="form-input" placeholder="Senha" required>
+          <i class="ph ph-lock input-icon"></i>
+        </div>
+        
+        <!-- Opção "Lembrar-me" -->
+        <label class="remember-me-container">
+          <input type="checkbox" id="remember-me" class="remember-checkbox">
+          <span class="checkbox-custom"></span>
+          <span class="remember-label">Lembrar-me</span>
+        </label>
+        
+        <button type="submit" class="login-btn">Entrar</button>
+        
+        <!-- Link "Esqueceu a senha?" com estilo padronizado -->
+        <a href="#" class="text-link">
+          <span>Esqueceu a senha?</span>
+        </a>
+        
+        <!-- Link de Cadastro com estilo padronizado -->
+        <a href="#" class="text-link">
+          Ainda não possui conta? <span>Cadastre-se</span>
+        </a>
+        
+        <!-- Copyright -->
+        <div class="copyright">
+          <span class="copyright-symbol">©</span> 2025 SpellTalk. Todos os direitos reservados.
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

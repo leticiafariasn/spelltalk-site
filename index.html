@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpellTalk - Fale bem, letra por letra</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#9d4edd">
+  <meta name="msapplication-TileColor" content="#9d4edd">
+  <meta name="theme-color" content="#9d4edd">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Phosphor Icons -->
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web/src/regular/style.css">
+  
+  <!-- CSS Principal -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <!-- Logo no canto superior esquerdo -->
+  <header class="site-header">
+    <a href="index.html">
+      <!-- Logo para modo escuro (fundo transparente/branco) -->
+      <img src="images/logo-dark.png" alt="SpellTalk Logo" class="site-logo logo-dark">
+      <!-- Logo para modo claro (fundo preto) -->
+      <img src="images/logo-light.png" alt="SpellTalk Logo" class="site-logo logo-light">
+    </a>
+  </header>
+  
+  <!-- Theme Toggle -->
+  <input type="checkbox" id="theme-toggle" onchange="document.documentElement.classList.toggle('dark')">
+  <label for="theme-toggle" class="theme-toggle-label">
+    <i class="ph ph-sun theme-icon sun-icon"></i>
+    <i class="ph ph-moon theme-icon moon-icon"></i>
+  </label>
+  
+  <!-- Background Elements -->
+  <div class="bg-elements">
+    <div class="black-glow glow-1"></div>
+    <div class="black-glow glow-2"></div>
+    
+    <div class="language-symbol symbol-1">Ñ</div>
+    <div class="language-symbol symbol-2">Ç</div>
+    <div class="language-symbol symbol-3">Ü</div>
+    <div class="language-symbol symbol-4">Ä</div>
+    <div class="language-symbol symbol-5">Ö</div>
+  </div>
+  
+  <!-- Menu de Navegação -->
+  <nav class="main-nav">
+    <div class="nav-container">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#inicio" class="nav-link active">Início</a></li>
+        <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+        <li class="nav-item"><a href="#idiomas" class="nav-link">Idiomas</a></li>
+        <li class="nav-item"><a href="#inscricoes" class="nav-link">Inscrições</a></li>
+        <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+        <li class="nav-item login-item"><a href="login.html" class="nav-link login-link">Entrar</a></li>
+      </ul>
+      <button class="mobile-menu-btn">
+        <i class="ph ph-list"></i>
+      </button>
+    </div>
+  </nav>
+  
+  <main>
+    <!-- Seção Início -->
+    <section id="inicio" class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">Fale bem, <br>letra por letra</h1>
+          <p class="hero-subtitle">Aprenda idiomas de forma prática e <br>divertida com o SpellTalk!</p>
+          <a href="#inscricoes" class="btn-primary">Matricule-se agora</a>
+        </div>
+        <div class="hero-image">
+          <img src="images/talkito.png" alt="Talkito, o mascote do SpellTalk" class="talkito-hero">
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="about-section">
+      <div class="container">
+        <h2 class="section-title">Sobre o Curso</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>O SpellTalk é um curso de idiomas diferente, focado na prática da fala desde o primeiro dia. Nossa metodologia única combina técnicas de aprendizado lúdico com exercícios práticos que desenvolvem sua confiança ao falar um novo idioma.</p>
+            <p>Nosso objetivo é tornar o aprendizado de idiomas acessível, divertido e eficiente para todos os moradores do bairro, independente da idade ou experiência prévia.</p>
+            <h3 class="about-subtitle">Nossa Metodologia</h3>
+            <ul class="feature-list">
+              <li class="feature-item">
+                <i class="ph ph-microphone feature-icon"></i>
+                <div class="feature-text">
+                  <span class="feature-title">Foco na oralidade</span>
+                  <span class="feature-desc">Você aprende falando desde a primeira aula</span>
+                </div>
+              </li>
+              <li class="feature-item">
+                <i class="ph ph-game-controller feature-icon"></i>
+                <div class="feature-text">
+                  <span class="feature-title">Aulas dinâmicas</span>
+                  <span class="feature-desc">Atividades lúdicas que tornam o aprendizado divertido</span>
+                </div>
+              </li>
+              <li class="feature-item">
+                <i class="ph ph-users-three feature-icon"></i>
+                <div class="feature-text">
+                  <span class="feature-title">Turmas reduzidas</span>
+                  <span class="feature-desc">Atenção personalizada para cada aluno</span>
+                </div>
+              </li>
+              <li class="feature-item">
+                <i class="ph ph-graduation-cap feature-icon"></i>
+                <div class="feature-text">
+                  <span class="feature-title">Professores qualificados</span>
+                  <span class="feature-desc">Equipe experiente e apaixonada por ensinar</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="about-image">
+            <img src="images/talkito-waving.png" alt="Talkito feliz" class="talkito-waving">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Idiomas -->
+    <section id="idiomas" class="languages-section">
+      <div class="container">
+        <h2 class="section-title">Idiomas Ofertados</h2>
+        <div class="language-cards">
+          <div class="language-card">
+            <div class="flag">
+                <img src="images/GB.png" alt="English">
+            </div>
+            <h3 class="language-title">Inglês</h3>
+            <p>Aprenda o idioma mais falado no mundo dos negócios e da tecnologia. Nossas aulas de inglês focam em situações práticas do dia a dia, com ênfase na pronúncia e na comunicação efetiva.</p>
+            <div class="language-levels">
+              <span class="level-badge">Iniciante</span>
+              <span class="level-badge">Intermediário</span>
+              <span class="level-badge">Avançado</span>
+            </div>
+          </div>
+          <div class="language-card">
+            <div class="flag">
+                <img src="images/DE.png" alt="German">
+            </div>
+            <h3 class="language-title">Alemão</h3>
+            <p>Descubra a língua de Goethe e Einstein! Nosso curso de alemão desmistifica a gramática e torna o aprendizado acessível, com foco em conversação e aspectos culturais importantes.</p>
+            <div class="language-levels">
+              <span class="level-badge">Iniciante</span>
+              <span class="level-badge">Intermediário</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Inscrições -->
+    <section id="inscricoes" class="enrollment-section">
+      <div class="container">
+        <h2 class="section-title">Inscrições</h2>
+        <div class="enrollment-content">
+          <div class="enrollment-text">
+            <p>Está pronto para iniciar sua jornada de aprendizado com o SpellTalk? Nossas matrículas estão abertas para turmas de todos os níveis!</p>
+            <p>Oferecemos condições especiais para matrículas antecipadas e descontos para grupos. Entre em contato para saber mais sobre horários e valores.</p>
+            <a href="#contato" class="btn-primary">Matricule-se agora</a>
+          </div>
+          <div class="enrollment-image">
+            <img src="images/talkito-happy.png" alt="Talkito pensativo" class="talkito-happy">
+            <p class="speech-bubble">Não perca tempo! Venha aprender com a gente!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="contact-section">
+      <div class="container">
+        <h2 class="section-title">Contato</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="ph ph-envelope"></i>
+              </div>
+              <div class="contact-text">
+                <h3 class="contact-title">E-mail</h3>
+                <p>contato@spelltalk.com.br</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="ph ph-whatsapp-logo"></i>
+              </div>
+              <div class="contact-text">
+                <h3 class="contact-title">WhatsApp</h3>
+                <p>(00) 12345-6789</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="ph ph-map-pin"></i>
+              </div>
+              <div class="contact-text">
+                <h3 class="contact-title">Endereço</h3>
+                <p>Rua dos Idiomas, 123 - Seu Bairro</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-message">
+            <p>Estamos ansiosos para ajudar você a iniciar sua jornada de aprendizado! Entre em contato conosco para mais informações sobre turmas, horários e valores.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <a href="#inicio">
+            <img src="images/logo-dark.png" alt="SpellTalk Logo" class="footer-logo-img logo-dark">
+            <img src="images/logo-light.png" alt="SpellTalk Logo" class="footer-logo-img logo-light">
+          </a>
+        </div>
+        <div class="footer-links">
+          <ul class="footer-nav">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#idiomas">Idiomas</a></li>
+            <li><a href="#inscricoes">Inscrições</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="copyright">
+          <span class="copyright-symbol">©</span> 2025 SpellTalk. Todos os direitos reservados.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script para navegação mobile -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Toggle menu mobile
+      const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+      const navList = document.querySelector('.nav-list');
+      
+      if (mobileMenuBtn) {
+        mobileMenuBtn.addEventListener('click', function() {
+          navList.classList.toggle('show');
+        });
+      }
+      
+      // Fechar menu ao clicar em um link
+      const navLinks = document.querySelectorAll('.nav-link');
+      navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+          navList.classList.remove('show');
+        });
+      });
+      
+      // Destacar link ativo ao rolar a página
+      const sections = document.querySelectorAll('section');
+      const navItems = document.querySelectorAll('.nav-item');
+      
+      window.addEventListener('scroll', function() {
+        let current = '';
+        
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.clientHeight;
+          if (pageYOffset >= (sectionTop - sectionHeight / 3)) {
+            current = section.getAttribute('id');
+          }
+        });
+        
+        navItems.forEach(item => {
+          item.querySelector('.nav-link').classList.remove('active');
+          if (item.querySelector('.nav-link').getAttribute('href') === `#${current}`) {
+            item.querySelector('.nav-link').classList.add('active');
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

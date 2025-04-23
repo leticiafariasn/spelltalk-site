@@ -1,0 +1,199 @@
+/* Estilos Responsivos */
+
+/* Tablets e dispositivos menores */
+@media (max-width: 992px) {
+  /* Navegação */
+  .nav-container {
+    padding: 0 20px;
+  }
+
+  /* Hero Section */
+  .hero-section .container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  /* About Section */
+  .about-content {
+    flex-direction: column-reverse;
+  }
+
+  .about-image {
+    margin-bottom: 2rem;
+  }
+
+  /* Languages Section */
+  .language-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .language-card {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  /* Enrollment Section */
+  .enrollment-content {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  /* Contact Section */
+  .contact-content {
+    flex-direction: column;
+  }
+
+  /* Footer */
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .footer-nav {
+    justify-content: center;
+  }
+}
+
+/* Dispositivos móveis */
+@media (max-width: 768px) {
+  /* Header e Logo */
+  .site-header {
+    top: 10px;
+    left: 10px;
+  }
+
+  .site-logo {
+    height: 50px;
+  }
+
+  /* Theme Toggle */
+  .theme-toggle-label {
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+  }
+
+  /* Navegação */
+  .main-nav {
+    height: 70px; /* Reduzir a altura em telas menores */
+  }
+
+  .nav-container {
+    justify-content: space-between;
+    padding: 0 60px 0 20px;
+  }
+
+  .nav-list {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--card-color);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
+    z-index: 89;
+  }
+
+  .nav-list.show {
+    transform: translateY(0);
+  }
+
+  .mobile-menu-btn {
+    display: block;
+    z-index: 90;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    padding-top: 80px; /* Ajustar o padding-top em telas menores */
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .talkito-img {
+    max-width: 250px; /* Reduzir o tamanho em telas menores */
+  }
+
+  .about-image .talkito-img {
+    max-width: 200px; /* Reduzir o tamanho em telas menores */
+  }
+
+  /* Section Titles */
+  .section-title {
+    font-size: 2rem;
+  }
+
+  /* Feature List */
+  .feature-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .feature-icon {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+  }
+
+  /* Contact Items */
+  .contact-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-icon {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  /* Login Card */
+  .login-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .login-title {
+    font-size: 2rem;
+  }
+}
+
+/* Dispositivos muito pequenos */
+@media (max-width: 480px) {
+  section {
+    padding: 3rem 0;
+  }
+
+  .hero-title {
+    font-size: 1.75rem;
+  }
+
+  .btn-primary {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+
+  .language-symbol {
+    opacity: 0.08;
+  }
+
+  .copyright {
+    font-size: 0.7rem;
+  }
+}
